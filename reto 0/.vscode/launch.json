@@ -5,17 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "hola_mundo",
-            "cwd": "hola_mundo",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "hola_mundo (profile mode)",
-            "cwd": "hola_mundo",
-            "request": "launch",
+            "name": "reto 0",
             "type": "dart",
-            "flutterMode": "profile"
-        }
+            "request": "launch",
+            "program": "lib/main.dart"
+        },
+        
+      
     ]
 }
