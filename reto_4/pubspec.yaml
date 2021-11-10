@@ -26,6 +26,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^0.19.3
   flutter_svg_provider: ^0.1.8
+  roundcheckbox: ^2.0.4
   rxdart: ^0.27.2
 
 dev_dependencies:
