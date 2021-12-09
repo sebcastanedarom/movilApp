@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263561364040",
+    "firebase_url": "https://triki-8cea8-default-rtdb.firebaseio.com",
+    "project_id": "triki-8cea8",
+    "storage_bucket": "triki-8cea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263561364040:android:105f3fcafeba8862c04e7d",
+        "android_client_info": {
+          "package_name": "com.example.reto_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263561364040-10ail4lssi2pvmnh8jul7vl5m6u82obs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1P11B_cjL2L2ysYK12VAOII0PZeKHqoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263561364040-10ail4lssi2pvmnh8jul7vl5m6u82obs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
