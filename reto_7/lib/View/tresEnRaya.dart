@@ -154,6 +154,21 @@ class _ScafoldtriState extends State<Scafoldtri> {
     }
   }
 
+  void _showPcDialog() {
+    showDialog(
+        barrierDismissible: false,
+        barrierColor: Colors.black,
+        context: context,
+        builder: (context) {
+          TableroBloc tableroBloc = Provider.tableroBloc(context);
+          tableroBloc.changeTurno(true);
+          return CupertinoAlertDialog(
+            title: Text('Turno del otro jugador'),
+            //content: Text(mensaje),
+          );
+        });
+  }
+
   _mostrarResultado(TableroBloc tableroBloc) async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     List<int> puntajes = tableroBloc.puntajes;
@@ -210,6 +225,7 @@ class _ScafoldtriState extends State<Scafoldtri> {
     Posiciones posiciones = Posiciones(
         tableroBloc.posiciones, tableroBloc.sala, tableroBloc.simbolo);
     posicionesDao.guardarPosicione(posiciones);
+    _showPcDialog();
   }
 
   int _checkForWinner(TableroBloc tableroBloc, List<String> juego) {
